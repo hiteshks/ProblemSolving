@@ -1,5 +1,5 @@
 let a = 30;
-let b = 1000;
+let b = 100;
 
 let sum = a+b;
 console.log(sum);
