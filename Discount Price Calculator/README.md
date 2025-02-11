@@ -31,7 +31,3 @@ Edge Cases:
 Edge Case 1: What if the price is exactly $20? The output should show no discount applied.
 
 Edge Case 2: What if the price is a negative number? The program should handle this by printing: "Invalid price, the price must be a non-negative number."
-
-All changes saved
-
-Enter your answer here
