@@ -12,7 +12,7 @@ function discountPriceCalculator(price){
     }
     else if(price<=20){
 
-        return price
+        return price;
 
     }
 
