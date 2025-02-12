@@ -12,13 +12,14 @@ function discountPriceCalculator(price){
         return "The final price of the item is: " + price;              //Returing the final price/amount
 
     }
-    else if(price == 20){
+    else if(price == 20){                          //Checking if price is just below cutoff amount
 
-        return "No discount applied. \n"+"The final price of the item is: " + price;
+        return "No discount applied. \n"+"The final price of the item is: " + price;         //Returing discount status and final price
         
     }
-    else if(price<0){
-        return "Invalid price, the price must be a non-negative number.";
+    else if(price<0){                               //Checking if price is a negative value
+
+        return "Invalid price, the price must be a non-negative number.";          //Returing discount status and final price
     }
     else{                               //if price if below the cutoff amount
 
