@@ -20,7 +20,6 @@ function detectingAnagram(s1, s2){
     s2 = s2.split(" ").join("");
     s1 = s1.split("").sort((a,b)=> a.localeCompare(b)).join("");
     s2 = s2.split("").sort((a,b)=> a.localeCompare(b)).join("");
-    console.log(s1, s2);
 
     return s1 == s2 ? true : false;
 
