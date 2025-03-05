@@ -13,8 +13,6 @@ function main(){
 }
 
 
-
-
 function detectingAnagram(s1, s2){
 
     s2 = s2.split(" ").join("");
