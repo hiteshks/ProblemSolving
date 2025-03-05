@@ -9,8 +9,6 @@ function main(){
 
         for(let j=i+1;j<marks.length;j++){
 
-            console.log(marks[i], marks[j])
-
             if(marks[j]>marks[i]){
 
                 flag = 0;
